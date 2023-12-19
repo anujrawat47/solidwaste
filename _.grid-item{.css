@@ -1,0 +1,13 @@
+.grid-item{
+    padding: 35px;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-row-start: 98;
+    grid-column-end: 500;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
